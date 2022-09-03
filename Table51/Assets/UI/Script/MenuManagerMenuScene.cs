@@ -30,5 +30,8 @@ public class MenuManagerMenuScene : MonoBehaviour
         Application.Quit();
     }
 
-   
+    public void CreditSceneOpen()
+    {
+        SceneManager.LoadScene(2);
+    }
 }
