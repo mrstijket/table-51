@@ -20,11 +20,14 @@ public class MenuManagerMenuScene : MonoBehaviour
 
     }
 
-    public void PlayButton()
+    public void LoadGame()
     {
         SceneManager.LoadScene(1);
     }
-
+    public void LoadMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
     public void ExitButton()
     {
         Application.Quit();
