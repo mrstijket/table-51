@@ -8,7 +8,7 @@ using TMPro;
 public class canbari : MonoBehaviour
 {
     float health;
-    float maxHealth = 100;
+    [SerializeField] float maxHealth = 100;
     public Image canBari;
     public TextMeshProUGUI canText;
     public GameObject kalp;
@@ -27,20 +27,19 @@ public class canbari : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.A))
         {
-           
-            if (health <= 0)
-            {
-                kalp.GetComponent<Image>().color = Color.red;
-                health =0;
-                
-                DeathPlayer();
-            }
-            else
+            if(health > 0)
             {
                 health -= 10;
                 StartCoroutine(HeartChange());
                 canText.text = health.ToString();
             }
+        }
+        if (health <= 0)
+        {
+            kalp.GetComponent<Image>().color = Color.red;
+            health = 0;
+
+            DeathPlayer();
         }
     }
 
@@ -48,11 +47,8 @@ public class canbari : MonoBehaviour
     {
         kalp.GetComponent<Image>().color = Color.red;
         yield return new WaitForSeconds(0.5f);
-        if(health >= 0) 
-        {
+        if (health > 0)
             kalp.GetComponent<Image>().color = Color.white;
-        }
-        
     }
     void DeathPlayer()
     {
