@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2d06efe161b94824b8a5c12561351d6f
+guid: 278dbf72427285742a8bff7be0ebb0e1
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Harelson Craft
+  - Omologo Personal
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
