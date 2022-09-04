@@ -22,7 +22,7 @@ public class ExitFromCredits : MonoBehaviour
     }
     IEnumerator LoadAutomatically()
     {
-        yield return new WaitForSeconds(30);
+        yield return new WaitForSeconds(32);
         menuScene.LoadMenu();
     }
 }

@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -342}
+  m_AnchoredPosition: {x: 0, y: -600}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &831797306
@@ -234,7 +234,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -617}
+  m_AnchoredPosition: {x: 0, y: -1044}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &932672250
@@ -313,8 +313,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -1017}
-  m_SizeDelta: {x: 0, y: 1069.8179}
+  m_AnchoredPosition: {x: 0, y: -1301.1466}
+  m_SizeDelta: {x: 0, y: 1638.1111}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &994404463
 MonoBehaviour:
@@ -338,11 +338,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 278dbf72427285742a8bff7be0ebb0e1, type: 3}
-    m_FontSize: 50
+    m_FontSize: 70
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 5
-    m_MaxSize: 50
+    m_MaxSize: 70
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -350,11 +350,11 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Oynad\u0131\u011F\u0131n\u0131z i\xE7in te\u015Fekk\xFCrler/Thank you
-    for playing\n\nTak\u0131m Lideri/Team Captain\nDo\u011Fukan Aslan\n\nModelleme
+    for playing\n\n\nTak\u0131m Lideri/Team Captain\nDo\u011Fukan Aslan\n\n\nModelleme
     Ekibi/Modelling\nEmre Canl\u0131\nO\u011Fuzhan G\xF6k\nYusuf Erba\u015F\nDo\u011Fukan
-    Aslan\nBar\u0131\u015F \xC7aylak\n\nYaz\u0131l\u0131m Ekibi/Developers\nMuhammed
+    Aslan\nBar\u0131\u015F \xC7aylak\n\n\nYaz\u0131l\u0131m Ekibi/Developers\nMuhammed
     Ali Acar\nDo\u011Fukan Bolut\nSerkan Topal\nBilal Berkan Malko\xE7\nMustafa Emircan
-    Tamer\nBurakcan G\xF6kkaya\n\n\n\n\n\n\nve\n\n\n\n\nkatk\u0131lar\u0131 sayesinde
+    Tamer\nBurakcan G\xF6kkaya\n\n\n\n\n\n\n\n\nve\n\n\n\n\nkatk\u0131lar\u0131 sayesinde
     ger\xE7ekle\u015Fmi\u015Ftir."
 --- !u!222 &994404464
 CanvasRenderer:
