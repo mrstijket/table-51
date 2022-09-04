@@ -33,8 +33,6 @@ public class AmmoCount : MonoBehaviour
         {
             DecreaseAmmo();
         }
-
-        
     }
 
     public void TakeAmmo(int bullet)
