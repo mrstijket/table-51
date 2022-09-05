@@ -6,12 +6,12 @@ using UnityEngine.UI;
 
 public class AmmoCount : MonoBehaviour
 {
-    [SerializeField]int Ammo=0; //cephane
+    [SerializeField] int Ammo=0; //cephane
     [SerializeField] int Bullet=30; //silahýn içindeki mermi - max 30 gibi
     [SerializeField] Text ceptekiMermi;
     [SerializeField] Text silahtaMermi;
     [SerializeField] GameObject reloadicon;
-
+    public int MaxCapacity;
     
     // Start is called before the first frame update
     void Start()
@@ -24,7 +24,7 @@ public class AmmoCount : MonoBehaviour
     {
         if (Input.GetKeyDown("e"))
         {
-            TakeAmmo(30);
+            TakeAmmo(MaxCapacity);
         }
         else if (Input.GetKeyDown("r"))
         {
@@ -56,7 +56,7 @@ public class AmmoCount : MonoBehaviour
     }
     public void Reload()
     {
-        if (Ammo == 0 || Bullet == 30) { return; }
+        if (Ammo == 0 || Bullet == MaxCapacity) { return; }
         StartCoroutine(ReloadDelay());
         reloadicon.SetActive(true);
     }
@@ -64,8 +64,8 @@ public class AmmoCount : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
         reloadicon.SetActive(false);
-        int kapasite = 30 - Bullet;
-        Bullet = 30;
+        int kapasite = MaxCapacity - Bullet;
+        Bullet =MaxCapacity;
         Ammo -= kapasite;
         ceptekiMermi.text = Ammo.ToString();
         silahtaMermi.text = Bullet.ToString();
